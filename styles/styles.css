@@ -1,0 +1,39 @@
+html, body {
+  background-color: #131313;
+  height: 100%;
+}
+
+.bigPicture {
+    height: 90%;
+    background-image: url(../images/image1.jpg);
+    background-size: cover;
+    color: #131313;
+    font-size: 500%;
+    font-family: 'Karla', sans-serif;
+}
+
+.nav{
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navName{
+    font-size: 100%;
+    color: #545454;
+}
+
+.navLinks{
+  float: right;
+}
+
+/* unvisited link */
+a{
+    color: white;
+    margin: 15px;
+}
+
+a:hover {
+    color: #c3c3c3;
+    text-decoration: none;
+}
