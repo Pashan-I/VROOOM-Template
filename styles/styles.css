@@ -19,7 +19,7 @@ html, body {
 }
 
 .navName{
-    font-size: 100%;
+    font-size: 140%;
     color: #545454;
 }
 
@@ -27,13 +27,37 @@ html, body {
   float: right;
 }
 
-/* unvisited link */
 a{
     color: white;
     margin: 15px;
 }
 
+
+a:link {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  margin: 15px;
+  text-decoration: none;
+}
+
+
 a:hover {
     color: #c3c3c3;
     text-decoration: none;
+}
+.subtitle{
+  font-size: 50%;
+  display: inline;
+  font-style: italic;
 }
