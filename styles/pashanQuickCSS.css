@@ -40,3 +40,8 @@
   margin: 0px;
   padding: 0px;
 }
+
+.half-block{
+  width: 50%;
+  display: inline;
+}
