@@ -1,6 +1,7 @@
 html, body {
-  background-color: #131313;
-  height: 100%;
+    background-color: #131313;
+    height: 100%;
+    overflow-x: hidden;
 }
 
 .bigPicture {
@@ -10,54 +11,77 @@ html, body {
     color: #131313;
     font-size: 500%;
     font-family: 'Karla', sans-serif;
+
+    background-attachment: fixed;
 }
 
-.nav{
-  display: block;
-  padding-top: 15px;
-  padding-bottom: 15px;
+.nav {
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.navName{
+.navName {
     font-size: 140%;
     color: #545454;
 }
 
-.navLinks{
-  float: right;
+.navLinks {
+    float: right;
 }
 
-a{
+a {
     color: white;
-    margin: 15px;
 }
 
+.navLinks a{
 
-a:link {
-  color: white;
   margin: 15px;
-  text-decoration: none;
+}
+a:link {
+    color: white;
+    text-decoration: none;
 }
 
 a:visited {
-  color: white;
-  margin: 15px;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 a:active {
-  color: white;
-  margin: 15px;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
-
 
 a:hover {
     color: #c3c3c3;
     text-decoration: none;
 }
-.subtitle{
-  font-size: 50%;
-  display: inline;
-  font-style: italic;
+
+.subtitle {
+    font-size: 50%;
+    display: inline;
+    font-style: italic;
+}
+
+.tile {
+    padding-top: 100px;
+    color: #c3c3c3;
+}
+
+.circle-img {
+    border-radius: 50%;
+    width: 20vh;
+    height: auto;
+}
+
+footer {
+    margin-top: 100px;
+    color: #c3c3c3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    background-image: url(../images/image1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
