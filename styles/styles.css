@@ -31,7 +31,7 @@ html, body {
 }
 
 a {
-    color: white;
+    color: #ffffff;
 }
 
 .navLinks a{
@@ -39,17 +39,17 @@ a {
   margin: 15px;
 }
 a:link {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
 a:visited {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
 a:active {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -64,17 +64,17 @@ a:hover {
     font-style: italic;
 }
 
-.tile {
-    padding-top: 100px;
-    color: #c3c3c3;
+.tile{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #ffffff;
 }
 
-.circle-img {
-    border-radius: 50%;
-    width: 20vh;
-    height: auto;
+img.img{
+  width: 40%;
+  height: auto;
+  display: inline;
 }
-
 footer {
     margin-top: 100px;
     color: #c3c3c3;
@@ -84,4 +84,18 @@ footer {
     background-image: url(../images/image1.jpg);
     background-size: cover;
     background-attachment: fixed;
+}
+
+.section-title{
+  font-size: 165%;
+}
+
+img{
+  margin: 20px;
+}
+
+.reg-text{
+  width: 40%;
+  font-size: 14px;
+  color: #c3c3c3;
 }

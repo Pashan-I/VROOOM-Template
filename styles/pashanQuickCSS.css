@@ -1,3 +1,5 @@
+/* A CSS with things I commonly use in my work */
+
 .center {
     display: flex;
     justify-content: center;
@@ -28,4 +30,13 @@
 .left{
   text-align: left;
   float: left;
+}
+
+.circleImg{
+  border-radius: 50%;
+}
+
+.noPadding{
+  margin: 0px;
+  padding: 0px;
 }
